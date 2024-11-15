@@ -1,0 +1,22 @@
+# Node modules (if not needed for runtime)
+node_modules/
+
+# Local environment settings
+.env
+
+# Documentation
+docs/
+README.md
+
+# Test files
+tests/
+__pycache__/
+*.pyc
+
+# Git-related files
+.git/
+.gitignore
+
+# Temporary files
+tmp/
+.DS_Store
