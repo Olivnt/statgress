@@ -14,7 +14,7 @@ page = st.sidebar.radio("Go to", ["Main Page", "View Full Dataset"])
 # Data Loading Function
 @st.cache_data
 def load_data():
-    return pd.read_csv('dataSets\\marketing_sales_data.csv')
+    return pd.read_csv('myPortfolio/dataSets/marketing_sales_data.csv')
 
 data = load_data()
 
