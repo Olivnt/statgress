@@ -11,7 +11,7 @@ page = st.sidebar.radio("Go to", ["Main Page", "View Data (First 100 Rows)", "Vi
 # Load the dataset (ensure the file path is correct)
 @st.cache_data
 def load_data():
-    return pd.read_csv("myPortfolio/dataSets/C4_epa_air_quality.csv")
+    return pd.read_csv("myPortfolio/dataSets/c4_epa_air_quality.csv") 
 
 data = load_data()
 
